@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+
+  mysql-development:
+    image: mysql:8.0.17
+    container_name: rmadridbasket-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: qwertyui
+      MYSQL_DATABASE: rmadridbasket
+    ports:
+      - "3308:3306"
+
+networks:
+  default:
+    external:
+        name: rmadridbasket

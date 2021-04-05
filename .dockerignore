@@ -1,0 +1,3 @@
+!~/workspace/rmadrid-basket-es/target/*.jar
+!~/workspace/rmadrid-basket-es-admin/target/*.jar
+!Dockerfile
